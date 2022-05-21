@@ -1,36 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>foodweb</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
       <div class="logo">
-          <a href="#"><i class="fas fa-utensils"></i>Foodverse</a>
+        <a href="#"><i class="fas fa-utensils"></i>Foodverse</a>
       </div>
       <nav class="navbar">
-           <a href="#" class="active">Home</a>
-           <a href="#">Dishes</a>
-           <a href="#">About</a>
-           <a href="#">Menu</a>
-           <a href="#">Review</a>
-           <a href="#">Order</a>
+        <a href="#" class="active">Home</a>
+        <a href="#">Dishes</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Review</a>
+        <a href="#">Order</a>
       </nav>
       <div class="icons">
-          <i class="fas fa-bars" id="menubars"></i>
-          <i class="fas fa-search" id="search-icon"></i>
-          <a href="#" class="fas fa-heart"></a>
-          <a href="#" class="fas fa-shopping-cart"></a>
+        <i class="fas fa-bars" id="menubars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
       </div>
     </header>
+    <!-- search form begins -->
+    <form action="" id="search-form">
+      <input
+        type="search"
+        name=""
+        placeholder="search here..."
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- search form end -->
 
+    <!-- home page begins -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>naija jollof rice</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                optio adipisci deleniti provident itaque harum.
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image" style="height: 400px; width: 600px;">
+              <img src="asset/food images/naija meal (5).jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>nice appetizer</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                optio adipisci deleniti provident itaque harum.
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image" style="height: 400px; width: 600px;">
+              <img src="asset/food images/cake (3).jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>italian pizza</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                optio adipisci deleniti provident itaque harum.
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image" style="height: 400px; width: 600px;">
+              <img src="asset/food images/pizza.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>special pancakes</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                optio adipisci deleniti provident itaque harum.
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image" style="height: 400px; width: 600px;">
+              <img src="asset/food images/breakf special.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>Ewedu & amala</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                optio adipisci deleniti provident itaque harum.
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image" style="height: 400px; width: 600px;">
+              <img src="asset/food images/naija meal (8).jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- home page ends -->
+<!-- dishes section starts -->
+<section class="dishes">
+   <h3 class="sub-heading">our dishes</h3> 
+   <h1 class="heading">popular dishes</h1> 
+
+   <div class="box-container">
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img style="width: 200px; height:200px" src="asset/food images/dario-TtadVut4jsg-unsplash.jpg" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-alt" ></i>
+    </div>
+    <span>$15.00</span>
+    <a href="#" class="btn">add to cart </a>
+    </div>
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img style="width: 200px; height:200px" src="asset/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-alt" ></i>
+    </div>
+    <span>$15.00</span>
+    <a href="#" class="btn">add to cart </a>
+    </div>
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img style="width: 200px; height:200px" src="asset/food images/foreign dish.jpg" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-alt" ></i>
+    </div>
+    <span>$15.00</span>
+    <a href="#" class="btn">add to cart </a>
+    </div>
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img style="width: 200px; height:200px" src="asset/food images/naija meal (4).jpg" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-alt" ></i>
+    </div>
+    <span>$15.00</span>
+    <a href="#" class="btn">add to cart </a>
+    </div>
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img style="width: 200px; height:200px" src="asset/food images/naija meal (2).jpg" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-alt" ></i>
+    </div>
+    <span>$15.00</span>
+    <a href="#" class="btn">add to cart </a>
+    </div>
+    <div class="box">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-eye"></a>
+      <img style="width: 200px; height:200px" src="asset/food images/naija meal (3).jpg" alt="">
+      <h3>tasty food</h3>
+      <div class="stars">
+      <i class="fa fa-star" ></i>
+      <i class="fa fa-star" ></i>
+      <i class="fa fa-star" ></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-alt" ></i>
+  </div>
+  <span>$15.00</span>
+  <a href="#" class="btn">add to cart </a>
+  </div>
+  </div>
+</section>
+<!-- dishes section starts -->
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
