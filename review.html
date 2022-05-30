@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>foodweb</title>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <header>
+      <div class="logo">
+        <a href="#"><i class="fas fa-utensils"></i>Foodverse</a>
+      </div>
+      <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="dishes.html">Dishes</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="review.html">Review</a>
+        <a href="#">Order</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menubars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+    <!-- search form begins -->
+    <form action="" id="search-form">
+      <input
+        type="search"
+        name=""
+        placeholder="search here..."
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- search form end -->
+
+    <!-- home page begins -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>naija jollof rice</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                optio adipisci deleniti provident itaque harum.
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image" style="height: 400px; width: 600px;">
+              <img src="asset/food images/naija meal (5).jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>nice appetizer</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                optio adipisci deleniti provident itaque harum.
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image" style="height: 400px; width: 600px;">
+              <img src="asset/food images/cake (3).jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>italian pizza</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                optio adipisci deleniti provident itaque harum.
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image" style="height: 400px; width: 600px;">
+              <img src="asset/food images/pizza.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>special pancakes</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                optio adipisci deleniti provident itaque harum.
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image" style="height: 400px; width: 600px;">
+              <img src="asset/food images/breakf special.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>Ewedu & amala</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                optio adipisci deleniti provident itaque harum.
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image" style="height: 400px; width: 600px;">
+              <img src="asset/food images/naija meal (8).jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- home page ends -->
+<!-- dishes section starts -->
+
+<!-- review section begins -->
+<section class="review" id="review">
+  <h3 class="sub-heading"> customer's review</h3>
+ 
+  <div class="swiper-container review-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide">
+        <i class="fas fa-quote-right"> </i>
+        <div class="user">
+        <img style="width: 100px; height:100px;"  src="asset/js ex 2.jpeg" alt="">
+        <div class="user-info">
+          <h3>john marcurley</h3>
+          <div class="stars">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt" ></i>
+              </div>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem adipisci corporis fugit amet dolores. Deserunt velit eligendi voluptate obcaecati. Repellat itaque quidem dicta, totam corrupti illo. Et nesciunt blanditiis ad?
+        </p>
+      </div>
+
+      
+
+      <div class="swiper-slide slide">
+        <i class="fas fa-quote-right"> </i>
+        <div class="user">
+        <img style="width: 100px; height:100px;"  src="asset/js ex7.jpeg" alt="">
+        <div class="user-info">
+          <h3>dfredric lindsey</h3>
+          <div class="stars">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt" ></i>
+              </div>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem adipisci corporis fugit amet dolores. Deserunt velit eligendi voluptate obcaecati. Repellat itaque quidem dicta, totam corrupti illo. Et nesciunt blanditiis ad?
+        </p>
+      </div>
+
+      <div class="swiper-slide slide">
+        <i class="fas fa-quote-right"> </i>
+        <div class="user">
+        <img style="width: 100px; height:100px;"  src="asset/js ex 4.jpg" alt="">
+        <div class="user-info">
+          <h3>fredric lindsey</h3>
+          <div class="stars">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt" ></i>
+              </div>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem adipisci corporis fugit amet dolores. Deserunt velit eligendi voluptate obcaecati. Repellat itaque quidem dicta, totam corrupti illo. Et nesciunt blanditiis ad?
+        </p>
+      </div>
+
+      <div class="swiper-slide slide">
+        <i class="fas fa-quote-right"> </i>
+        <div class="user">
+        <img style="width: 100px; height:100px;"  src="asset/js ex6.jpeg" alt="">
+        <div class="user-info">
+          <h3>fredric lindsey</h3>
+          <div class="stars">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt" ></i>
+              </div>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem adipisci corporis fugit amet dolores. Deserunt velit eligendi voluptate obcaecati. Repellat itaque quidem dicta, totam corrupti illo. Et nesciunt blanditiis ad?
+        </p>
+      </div>
+
+      <div class="swiper-slide slide">
+        <i class="fas fa-quote-right"> </i>
+        <div class="user">
+        <img style="width: 100px; height:100px;"  src="asset/js ex 8.jpeg" alt="">
+        <div class="user-info">
+          <h3>fredric lindsey</h3>
+          <div class="stars">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt" ></i>
+              </div>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem adipisci corporis fugit amet dolores. Deserunt velit eligendi voluptate obcaecati. Repellat itaque quidem dicta, totam corrupti illo. Et nesciunt blanditiis ad?
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- review section ends -->
+
+    <!-- footer section -->
+  <div class="footer">
+    <div class="footer-content">
+      <h3>@foodweb</h3><br>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quae. Veritatis cum vero perspiciatis!<br> Vitae, ipsam tempore? Atque, dolorem eveniet!</p><br>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div><br>
+      <p>Made with <i class="fa fa-hearts"></i> by Dee</p>
+    </div>
+  </div>
+<!-- footer section ends -->
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
